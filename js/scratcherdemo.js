@@ -4,7 +4,7 @@
 
 var image = { // back and front images
 	'back': { 'url':'img/bg.png', 'img':null },
-	'front': { 'url':'img/fg.jpg', 'img':null }
+	'front': { 'url':'img/fg.png', 'img':null }
 };
 
 var canvas = {'temp':null, 'draw':null}; // temp and draw canvases
