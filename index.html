@@ -8,12 +8,18 @@
   <title>Scratchoff</title>
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
   <script src="js/scratcherdemo.js"></script> <!-- http://beej.us/blog/data/html5-canvas-globalcompositeoperation/ -->
+  <style>
+    canvas { position: absolute; top: 0; left: 0 }
+    #maincanvas { z-index: 100 }
+  </style>
 </head>
 <body>
   <canvas id="maincanvas"></canvas>
-  <canvas id="backthumb"></canvas>
-  <canvas id="drawthumb"></canvas>
-  <canvas id="tempthumb"></canvas>
-  <canvas id="forethumb"></canvas>
+  <div id="ancillary">
+    <canvas id="backthumb"></canvas>
+    <canvas id="drawthumb"></canvas>
+    <canvas id="tempthumb"></canvas>
+    <canvas id="forethumb"></canvas>
+  </div>
 </body>
 </html>
