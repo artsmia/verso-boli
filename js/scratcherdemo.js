@@ -128,7 +128,7 @@ function scratchLine(can, x, y, fresh) {
 	var ctx = can.getContext('2d');
 	ctx.lineWidth = 45;
 	ctx.lineCap = ctx.lineJoin = 'round';
-	ctx.strokeStyle = '#f00'; // can be any opaque color
+	ctx.strokeStyle = '#fff'; // can be any opaque color
 	if (fresh) {
 		ctx.beginPath();
 		// this +0.01 hackishly causes Linux Chrome to draw a
